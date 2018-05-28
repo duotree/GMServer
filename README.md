@@ -1,0 +1,2 @@
+# GMServer
+just for test 
