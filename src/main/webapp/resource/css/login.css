@@ -1,0 +1,199 @@
+
+html body{
+	height:100%;
+	overflow:hidden;
+}
+body{
+	margin:0;
+	overflow:hidden;
+}
+
+
+.bgup{
+	background: url('../img/mohubg.jpg') #8b9b94;
+	background-position: center center;
+	background-size: cover;
+	height: 99.9%;
+	width: 100%;
+	border-bottom: 1px solid #999;
+	box-shadow: 2px 0 3px rgba(0,0,0,0.3);
+}
+
+
+	.maintop{
+		padding-top:160px;
+		
+	}
+	.col960{
+		width:960px;
+		margin-left:30%;
+	}
+	
+	.siteleft{
+		width:415px;
+		float:left;
+		height:400px;
+		box-shadow:0 5px 13px rgb(36, 33, 33);
+		-webkit-border-radius:4px;
+		background:#FFFFFF;
+	}
+	
+    #login-top{
+		height:150px;
+		border-top-right-radius:4px;
+		border-top-left-radius:4px;
+		border-bottom: 2px solid rgb(131, 186, 230);
+		background: rgb(101, 180, 223);
+		margin-bottom: 15px;
+	}
+	#login-main{
+		height:120px;
+		margin-bottom: 15px;
+	}
+	#login-floor{
+		height:75px;
+		bottom:0;
+		background-color: #e7e3d8;
+		border-bottom-right-radius:4px;
+		border-bottom-left-radius:4px;
+	}
+	
+		
+	.sitefloor{
+	    height:70px;
+		width:100%;
+		position:absolute;
+		bottom:0;
+		background-color: rgb(0, 0, 0);
+		opacity:0.8;
+	}
+	
+	
+	
+	 h1{
+		font-size:20px;
+		font-weight:normal;
+		left:50%;
+		margin-left:-400px;
+		padding:25px 0;
+		position:absolute;
+		width:400px;
+		color: #999999;
+		font-style: italic;
+	}
+	
+	
+	.tri{
+		border-color:transparent transparent rgb(0, 0, 0);
+		border-style:solid;
+		border-width:20px 17px;
+		height:0;
+		left:50%;
+		margin:-40px 0 0 -400px;
+		position:absolute;
+		top:0;
+		width:0;
+   }
+   
+   
+   #userInput {
+			margin-left: 60px;
+            margin-top: 40px;
+			border: 1px solid rgb(172, 166, 166);
+			border-radius: 3px;
+			width: 220px;
+			height: 35px;
+			
+	}
+		
+	.leftDiv{
+		    margin:0;
+			float:left;
+			width:60px;
+			height:35px;
+			background: rgb(243, 241, 234);
+			border-right: 1px solid rgb(172, 158, 158);
+			border-top-left-radius: 4px;
+			border-bottom-left-radius: 4px;
+	}
+		
+	img{
+			margin-top: 10px;
+			margin-left: 15px;
+	}
+	
+	input{
+			/*去掉谷歌输入的时候的边框*/
+			outline: medium;
+			border: 0px;
+			margin-top: 5px;
+			height: 23px;
+			width: 120px;
+			margin-left: 20px;
+			font-size: 20px;
+			font-style: italic;
+		}
+   
+	#passwInput{
+			margin-left: 60px;
+            margin-top: 20px;
+			border: 1px solid rgb(172, 166, 166);
+			border-radius: 3px;
+			width: 220px;
+			height: 35px;
+			
+	}
+	
+	.btn{
+			border-radius: 8px;
+			box-shadow: 0 0 1px #fff inset;
+			background-color: rgb(238, 110, 78);
+			padding: 10 100;
+			margin: 20px 80px;
+			cursor: pointer;
+			color: #fff;
+			font: 18px Calibri, Arial, sans-serif;
+			text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.57);
+			display: inline-block;
+			vertical-align: baseline;
+			position: relative;
+			text-decoration:none;
+			
+		}
+		
+		.btn:active {
+			bottom:-1px;
+		}
+		
+		#user-img{
+			/*margin-top:10px;*/
+			width: 100px;
+			height: 100px;
+			border: 1px solid rgb(151, 201, 230);
+			border-radius: 50px;
+			float: left;
+			margin: 20px 40px;
+		}
+		
+		#user-detail{
+			width: 180px;
+			height: 100px;
+			float: right;
+			margin: 30px 50px 20px 0px;
+		}
+		
+		#user-img-inner{
+			width: 84px;
+			height: 84px;
+			border-radius: 42px;
+			float: left;
+			margin: 8px;
+			background:url('../img/head_pic1.jpg');
+			box-shadow: 0 0 40px rgba(2, 2, 2, 0.74) inset;
+		}
+		
+		#user-detail{
+			color:#fff;
+			font-size:20px;
+			padding-top:20px;
+		}
